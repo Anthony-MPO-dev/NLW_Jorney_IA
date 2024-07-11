@@ -14,7 +14,7 @@ curl -X POST "http://api-travelagent-946764600.sa-east-1.elb.amazonaws.com" \
 ```
 
 ## Explicação:
--X POST: Especifica que o método HTTP usado é POST, indicando que você está enviando dados para o servidor.
--H "Content-Type: application/json": Define o cabeçalho HTTP para indicar que o conteúdo enviado é do tipo JSON.
--d '{ ... }': Envia os dados JSON com a consulta de viagem. Substitua o conteúdo dentro das chaves { ... } com sua própria consulta de viagem.
+    - -X POST: Especifica que o método HTTP usado é POST, indicando que você está enviando dados para o servidor.
+    - -H "Content-Type: application/json": Define o cabeçalho HTTP para indicar que o conteúdo enviado é do tipo JSON.
+    - -d '{ ... }': Envia os dados JSON com a consulta de viagem. Substitua o conteúdo dentro das chaves { ... } com sua própria consulta de viagem.
 ### Isso enviará a consulta para o endpoint especificado, onde a função Lambda processará a solicitação e retornará um roteiro de viagem personalizado como resposta.
