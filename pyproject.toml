@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "nlw15-ia"
+version = "0.1.0"
+description = ""
+authors = ["Anthony Muniz <aoliveira@computacao.cua.ufmt.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "*"
+blue   =  "*"
+isort  = "*"
+python-dotenv = "^1.0.1"
+langchain = "^0.2.7"
+langchain-openai = "^0.1.14"
+duckduckgo-search = "^6.1.9"
+wikipedia = "^1.4.0"
+langchain-community = "^0.2.7"
+langchainhub = "^0.1.20"
+bs4 = "^0.0.2"
+secretstorage = "^3.3.3"
+posthog = "^3.5.0"
+chromadb = "^0.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
